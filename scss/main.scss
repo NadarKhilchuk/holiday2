@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,regular&display=swap);
+
+
+//!Import base
+@import './base/reset.scss';
+@import './base/variables.scss';
+@import './base/mixins.scss';
+
+body {
+	font-family: $mainFontFamily;
+	font-size: 14px;
+	line-height: normal;
+	color: $darkColor;
+	font-style: normal;
+	font-weight: 700
+}
+
+.container {
+	max-width: 940px;
+	min-width: 320px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+//! components
+@import './components/header.scss';
+
+
+//! pages
+@import './pages/home.scss'; 

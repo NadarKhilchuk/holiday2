@@ -1,0 +1,7 @@
+.hero-home {
+  background: url("/img/home-background.png") center/cover no-repeat;
+  color: #ffffff;
+}
+.hero-home__wrapper {
+  padding: 170px 0 140px 0;
+}
